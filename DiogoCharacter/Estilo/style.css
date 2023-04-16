@@ -1,0 +1,71 @@
+@import "compass/css3";
+
+:root{
+  --size: 1em;
+}
+
+html {
+  height: 97vh;
+}
+
+body {
+  background-color: #242424;
+  height: 100%;
+} 
+
+.character {
+  width: 50vw;
+  height: 50vh;
+  margin: 20px auto;
+  position: relative;
+  font-size: 1em; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.character:after {
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  background-color: black;
+  box-shadow: 
+  1em 0em black,
+  2em 0em black,
+  3em 0em black,
+  4em 0em black,
+  5em 0em black,
+  0em 1em black,
+  1em 1em black,
+  2em 1em black,
+  3em 1em black,
+  4em 1em black,
+  5em 1em black,
+  0em 2em black,
+  1em 2em white,
+  2em 2em black,
+  3em 2em black,
+  4em 2em white,
+  5em 2em black,
+  0em 3em black,
+  1em 3em black,
+  2em 3em black,
+  3em 3em black,
+  4em 3em black,
+  5em 3em black,
+  0em 4em black,
+  1em 4em white,
+  2em 4em white,
+  3em 4em white,
+  4em 4em white,
+  5em 4em black,
+  0em 5em black,
+  1em 5em black,
+  2em 5em black,
+  3em 5em black,
+  4em 5em black,
+  5em 5em black
+  ;
+} 
